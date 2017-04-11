@@ -1,0 +1,71 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+div a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #666;
+}
+div ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 0px;
+}
+div ul li {
+	list-style: none;
+}
+
+/*按键与数字*/
+.num {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+}
+
+.prev, .next {
+	background-color: grey;
+	font-weight: bold; 
+	color: white; 
+}
+.prev {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+}
+.next {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
+
+/*遮罩*/
+.block {
+	position: absolute; 
+	z-index: 1; 
+	background-color: yellow;
+	opacity: 0;
+	display: none;
+}
+
+
+/*鼠标效果移上效果*/
+.on {
+	color: grey;
+	background-color: white;
+}
+
+.onNum {
+	color: white;
+}
+
+
+
+
+
+
